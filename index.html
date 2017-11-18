@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather</title>
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+        <meta name="Alex" charset="UTF-8">
+    </head>
+    <body>
+        <div class="container">
+            <div class="general">
+                <div class="title">
+                    <h1 id="weather">Weather App</h2>
+                </div>
+                <h1 id="area"></h1>
+            </div>
+            <div class="main">
+                <h4 id="wind"></h4>
+                <h4 id="temp"></h4>
+                <img src="#" alt="Weather Image" id="weatherImg">
+            </div>
+            <div class="input">
+                <input type="text" name="city" id="input">
+                <button onclick="cityRequested()">Get Weather</button>
+                <button onclick="getGeoLocation()">My Weather</button>
+            </div>
+        </div>
+        <div class="information-bar">
+            <div class="left">
+                Created by Alex
+            </div>
+            <div class="right">
+                <a href="#" id="twitterLink"><img src="resources/twitter.svg" height=30 width=30></a>
+            </div>
+        </div>
+    </body>
+</html>

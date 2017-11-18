@@ -1,0 +1,76 @@
+body {
+    color: #ff7373;
+    padding: 2vh 0vw 2vh 0vw;
+    text-align: center;
+    background-image: url("https://www.almanac.com/sites/default/files/image_nodes/long-range-weather-september-2016.jpg");
+    background-size: cover;
+    font-family: "Roboto";
+}
+
+.information-bar {
+    width: 100%;
+    position: fixed;
+    bottom: 30px;
+}
+
+.left {
+    padding-left: 1.5vw;
+    float: left;
+}
+
+.right {
+    padding-right: 2vw;
+    float: right;
+}
+
+.container {
+    position: fixed;
+  top: 40%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.general {
+    font-family: "Roboto";
+    font-size: 40px;
+}
+
+.convert {
+    display: inline-block;
+    text-align: center;
+    text-decoration: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    color: lightskyblue;
+}
+
+.convert:hover {
+    cursor: pointer;
+    color: deepskyblue;
+}
+
+.temperature {
+    display: inline-block;
+}
+
+h1 {
+    margin: 0;
+}
+
+#area {
+    font-size: 33px;
+}
+
+#temp {
+    padding-top: 2vh;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+#wind {
+    padding-top: 3.5vh;
+    font-size: 24px;
+    margin: 0;
+}
