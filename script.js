@@ -37,7 +37,7 @@ function getAsync(url, callback) {
 
 function initialize(latitude, longitude) {
     var weatherReq = "https://fcc-weather-api.glitch.me/api/current?lat=" + (latitude) + "&lon=" + (longitude),
-        locationReq = "http://maps.googleapis.com/maps/api/geocode/json?latlng=" + (latitude) + "," + (longitude) + "&sensor=true/false";
+        locationReq = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + (latitude) + "," + (longitude) + "&sensor=true/false";
     getAsync(weatherReq, function (response) {
         var json = JSON.parse(response);
         document.getElementById("temp").innerHTML = "<div class=\"temperature\">" + json.main.temp + "°</div><span class=\" convert\" onclick=\"handleClick()\" id =\"convert\">C</span>";
