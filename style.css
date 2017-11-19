@@ -1,5 +1,5 @@
 body {
-    color: #ff7373;
+    color: #008080;
     padding: 2vh 0vw 2vh 0vw;
     text-align: center;
     background-image: url("https://www.almanac.com/sites/default/files/image_nodes/long-range-weather-september-2016.jpg");
@@ -16,6 +16,15 @@ body {
 .left {
     padding-left: 1.5vw;
     float: left;
+}
+
+.left a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color:cadetblue;
 }
 
 .right {
