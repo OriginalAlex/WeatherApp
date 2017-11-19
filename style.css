@@ -3,7 +3,7 @@ body {
     padding: 2vh 0vw 2vh 0vw;
     text-align: center;
     background-image: url("https://www.almanac.com/sites/default/files/image_nodes/long-range-weather-september-2016.jpg");
-    background-size: cover;
+    background-size: 100%;
     font-family: "Roboto";
 }
 
